@@ -1,0 +1,20 @@
+{
+    "name": "lcosta/toolsdev",
+    "description": "Tools for development",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leo Costa",
+            "email": "leo.inclito@yandex.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "require": {}
+}
