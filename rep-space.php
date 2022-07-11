@@ -20,6 +20,12 @@ $rename = new renameText();
 
         <div>
             <label for="texto">Write or paste text</label><br>
+            <select name="typeGit" id="">
+                <option value="">CLEAN</option>
+                <option value="hotfix/">HOTFIX</option>
+                <option value="bug/">BUG</option>
+                <option value="feature/">FEATURE</option>
+            </select>
             <input type="text" name="texto" placeholder="Digite ou cole o texto" id="texto" style="width: 60%;">
         </div><br>
 
